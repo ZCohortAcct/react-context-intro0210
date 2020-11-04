@@ -6,7 +6,7 @@ import MessageContext from './Context';
 
 function App() {
   return (
-    <MessageContext.Provider value={"DON'T SHARE THIS SECRET... But I luv React! =D #Hugz"}>
+    <MessageContext.Provider value={'Coming frm Provider in App'}>
     <div>
       <GrandP />
     </div>
